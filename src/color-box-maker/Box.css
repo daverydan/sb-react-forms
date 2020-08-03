@@ -1,0 +1,21 @@
+.Box {
+  margin: 30px auto;
+  position: relative;
+}
+
+.Box button {
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  height: 24px;
+  line-height: 20px;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  width: 24px;
+}
+
+.Box button:hover {
+  background: #e7e7e7;
+  cursor: pointer;
+}

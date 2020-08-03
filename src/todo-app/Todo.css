@@ -1,0 +1,7 @@
+.Todo {
+  margin: 15px 0;
+}
+
+.Todo button:hover {
+  cursor: pointer;
+}

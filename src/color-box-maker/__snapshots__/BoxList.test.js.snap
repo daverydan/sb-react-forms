@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="NewBoxForm"
+  >
+    <h1>
+      Color Box Maker
+    </h1>
+    <form>
+      <div
+        class="control"
+      >
+        <label
+          for="bgColor"
+        >
+          Background Color:
+        </label>
+        <input
+          id="bgColor"
+          name="bgColor"
+          type="color"
+          value="#F50000"
+        />
+      </div>
+      <div
+        class="control"
+      >
+        <label
+          for="height"
+        >
+          Height:
+        </label>
+        <input
+          id="height"
+          name="height"
+          type="number"
+          value="50"
+        />
+      </div>
+      <div
+        class="control"
+      >
+        <label
+          for="width"
+        >
+          Width:
+        </label>
+        <input
+          id="width"
+          name="width"
+          type="number"
+          value="50"
+        />
+      </div>
+      <button>
+        Add
+      </button>
+    </form>
+  </div>
+  <hr />
+  <div
+    class="BoxList"
+    data-testid="box-list"
+  >
+    <div
+      class="Box"
+      id="box-0"
+      style="background-color: red; height: 50px; width: 100px;"
+    >
+      <button
+        data-testid="box-btn-0"
+      >
+        x
+      </button>
+    </div>
+    <div
+      class="Box"
+      id="box-1"
+      style="background-color: green; height: 100px; width: 50px;"
+    >
+      <button
+        data-testid="box-btn-1"
+      >
+        x
+      </button>
+    </div>
+    <div
+      class="Box"
+      id="box-2"
+      style="background-color: blue; height: 50px; width: 50px;"
+    >
+      <button
+        data-testid="box-btn-2"
+      >
+        x
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

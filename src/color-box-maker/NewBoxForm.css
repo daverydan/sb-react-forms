@@ -1,0 +1,18 @@
+.NewBoxForm .control {
+  margin-bottom: 15px;
+}
+
+.NewBoxForm .control label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.NewBoxForm button {
+  height: 30px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.NewBoxForm button:hover {
+  cursor: pointer;
+}
